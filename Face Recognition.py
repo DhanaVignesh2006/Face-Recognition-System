@@ -11,6 +11,7 @@
 import cv2  
 import numpy as np 
 import face_recognition 
+import os
 
 # name of the path where we stored the images
 path = "faces"
