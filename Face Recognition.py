@@ -71,3 +71,7 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         cap.release()
         cv2.destroyAllWindows
+        
+    cv2.imshow('Face Recognition', img)
+    cv2.waitKey(1)
+
